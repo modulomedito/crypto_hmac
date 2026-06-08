@@ -63,7 +63,8 @@ extern crypto_hmac__Ret crypto_hmac__compute(
     u32 key_len,
     const u8 *msg_ref,
     u32 msg_len,
-    u8 *hmac_mut
+    u8 *hmac_mut,
+    u32 hmac_buf_size
 );
 
 //==================================================================================================
